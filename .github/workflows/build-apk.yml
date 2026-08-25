@@ -2,7 +2,7 @@ name: Build Android APK
 
 on:
   push:
-    branches: [ "main", "master" ]
+    branches: [ "main", "master", "master-v1" ]
 
 jobs:
   build:
@@ -17,6 +17,9 @@ jobs:
       with:
         distribution: 'temurin'
         java-version: '17'
+
+    - name: Generate Gradle Wrapper
+      run: gradle wrapper
 
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
