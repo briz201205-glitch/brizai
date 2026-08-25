@@ -1,0 +1,7 @@
+{
+  "name": "Briz",
+  "description": "Briz - Asisten AI cerdas & berfitur lengkap dengan antarmuka modern bernuansa Gemini, dukungan pengiriman semua jenis file, suara TTS, dan manajemen percakapan cerdas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
